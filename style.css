@@ -1,52 +1,58 @@
 .home-page {
-    text-align: center;
-    font-size:x-large;
-    font-family: Verdana;
+  text-align: center;
+  font-size: x-large;
+  font-family: Verdana;
 }
 
 body {
-    /* background-color: rgb(172, 51, 51); */
-    font-family: Verdana, Tahoma, sans-serif, sans-serif;
-    /* background-image: url(https://www.itl.cat/pngfile/big/295-2956992_table-wallpaper-wood-plank-texture-hd.jpg); */
-    background-color: white;
-    border: 10px solid #000000;
+  font-family: Verdana, Tahoma, sans-serif, sans-serif;
+  /* background-image: url(https://www.itl.cat/pngfile/big/295-2956992_table-wallpaper-wood-plank-texture-hd.jpg); */
+  background-color: white;
+  border: 10px solid #000000;
 }
 
 .links {
-    text-align: center;
+  text-align: center;
 }
 
 /* Header size and formatting */
-h1, h2, h3, h4 {
-    font-family: Verdana, Tahoma, sans-serif, sans-serif;
-    font-size: 30px;
-    font-weight: bold;
-    background-color: #f3e072;
-    text-align: center;
+h1,
+h2,
+h3,
+h4 {
+  font-family: Verdana, Tahoma, sans-serif, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #f3e072;
+  text-align: center;
 }
 
 h1 {
-    font-size: 35px;
-    text-decoration: underline;
+  font-size: 35px;
+  text-decoration: underline;
 }
 
- /* Paragraph */
+/* Paragraph */
 p {
-    text-align: center;
-    font-size: larger;
+  text-align: center;
+  font-size: larger;
 }
-
 
 /* Center and Reorient images */
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
 
-ul, ol {
-    text-align: left;
-    font-size: large;
+ul,
+ol {
+  text-align: left;
+  font-size: large;
 }
 
+.indented-quote {
+  text-align: center;
+  font-size: 15px;
+}
