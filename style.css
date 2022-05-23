@@ -3,8 +3,9 @@ body {
   /* background-image: url(https://www.itl.cat/pngfile/big/295-2956992_table-wallpaper-wood-plank-texture-hd.jpg); */
   background-color: white;
   border: 10px solid #000000;
-  margin: 0 auto;
-  width: 800px;
+  margin: 0 auto; 
+  /* max-width maintains the content on web-page even when narrowing. (Useful for mobile viewing) */
+  max-width: 800px; 
 }
 
 .home-page {
