@@ -1,16 +1,18 @@
-.home-page {
-  text-align: center;
-  font-size: x-large;
-  font-family: Verdana;
-}
-
 body {
   font-family: Verdana, Tahoma, sans-serif, sans-serif;
   /* background-image: url(https://www.itl.cat/pngfile/big/295-2956992_table-wallpaper-wood-plank-texture-hd.jpg); */
   background-color: white;
   border: 10px solid #000000;
+  margin: 0 auto;
+  width: 800px;
 }
 
+.home-page {
+  text-align: center;
+  font-size: x-large;
+}
+
+/* Links */
 .links {
   text-align: center;
 }
@@ -20,11 +22,11 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: Verdana, Tahoma, sans-serif, sans-serif;
   font-size: 30px;
   font-weight: bold;
   background-color: #f3e072;
   text-align: center;
+  padding: 5px;
 }
 
 h1 {
@@ -36,23 +38,38 @@ h1 {
 p {
   text-align: center;
   font-size: larger;
+  padding: 0 5px;
 }
 
 /* Center and Reorient images */
 .center-image {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
+  margin: 0 auto;
+  width: 400px;
 }
 
-ul,
+/* Lists */
+ul {
+  text-align: left;
+  font-size: large;
+  line-height: 150%;
+}
+
 ol {
   text-align: left;
   font-size: large;
+  line-height: 125%;
 }
 
+/* Emphasis tags */
+em {
+  font-weight: 600;
+}
+
+
 .indented-quote {
+  display: block;
   text-align: center;
   font-size: 15px;
+  /* padding: 2px; */
 }
